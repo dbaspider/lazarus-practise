@@ -1,0 +1,10 @@
+{"version":1,"strings":[
+{"hash":234901225,"name":"tform1.caption","sourcebytes":[87,105,110,32,71,117,105],"value":"Win Gui"},
+{"hash":4960369,"name":"tform1.edit1.text","sourcebytes":[69,100,105,116,49],"value":"Edit1"},
+{"hash":77164181,"name":"tform1.btnbrowser.caption","sourcebytes":[66,114,111,119,115,101],"value":"Browse"},
+{"hash":4844443,"name":"tform1.btncheck.caption","sourcebytes":[67,104,101,99,107],"value":"Check"},
+{"hash":131189102,"name":"tform1.btnshow.caption","sourcebytes":[83,104,111,119,32,70,105,108,101,32,87,105,110],"value":"Show File Win"},
+{"hash":95365859,"name":"tform1.button1.caption","sourcebytes":[74,105,97,110,116,105,45,80,82,67],"value":"Jianti-PRC"},
+{"hash":108025790,"name":"tform1.button2.caption","sourcebytes":[70,97,110,116,105,45,84,97,105,119,97,110],"value":"Fanti-Taiwan"},
+{"hash":130518105,"name":"tform1.button3.caption","sourcebytes":[68,101,102,97,117,108,116,40,69,110,103,41],"value":"Default(Eng)"}
+]}

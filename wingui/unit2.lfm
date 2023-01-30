@@ -1,0 +1,36 @@
+object Form2: TForm2
+  Left = 599
+  Height = 359
+  Top = 260
+  Width = 589
+  Caption = 'Form2'
+  ClientHeight = 359
+  ClientWidth = 589
+  LCLVersion = '2.2.4.0'
+  object Memo1: TMemo
+    Left = 8
+    Height = 210
+    Top = 8
+    Width = 296
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object btnOK: TButton
+    Left = 312
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'ok'
+    TabOrder = 1
+  end
+  object btnCancel: TBitBtn
+    Left = 312
+    Height = 30
+    Top = 48
+    Width = 75
+    Caption = 'Cancel'
+    TabOrder = 2
+  end
+end

@@ -5,22 +5,29 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Buttons, Windows, tools;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Buttons, Windows, tools,
+  DefaultTranslator, LCLTranslator;
 
 type
 
   { TForm1 }
 
   TForm1 = class(TForm)
+    btnShow: TBitBtn;
     btnHello: TBitBtn;
     btnBrowser: TButton;
     btnCheck: TButton;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
     Edit1: TEdit;
     Memo1: TMemo;
     OpenDialog1: TOpenDialog;
     procedure btnBrowserClick(Sender: TObject);
     procedure btnCheckClick(Sender: TObject);
     procedure btnHelloClick(Sender: TObject);
+    procedure btnShowClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
@@ -34,6 +41,12 @@ var
 implementation
 
 {$R *.lfm}
+
+uses Unit2;
+
+resourcestring
+  HelloMessage = 'Hello World!';
+  CloseMessage = 'Closing your app... bye bye!';
 
 { TForm1 }
 
@@ -74,7 +87,25 @@ end;
 procedure TForm1.btnHelloClick(Sender: TObject);
 begin
   (* hello click *)
-  ShowMessage('foo bar');
+  ShowMessage(HelloMessage);
+end;
+
+procedure TForm1.btnShowClick(Sender: TObject);
+begin
+  Form2.show;
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  btn: TButton;
+  langId: String;
+begin
+  btn := TButton(Sender);
+  langId := '';
+  if (btn.Tag = 0) then langId := 'zh_CN';
+  if (btn.Tag = 1) then langId := 'zh_TW';
+  if (btn.Tag = 2) then langId := '';
+  SetDefaultLang(langId, 'lang');
 end;
 
 end.

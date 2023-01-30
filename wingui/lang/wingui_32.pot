@@ -1,0 +1,55 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tform1.btnbrowser.caption
+msgid "Browse"
+msgstr ""
+
+#: tform1.btncheck.caption
+msgid "Check"
+msgstr ""
+
+#: tform1.btnshow.caption
+msgid "Show File Win"
+msgstr ""
+
+#: tform1.button1.caption
+msgid "Jianti-PRC"
+msgstr ""
+
+#: tform1.button2.caption
+msgid "Fanti-Taiwan"
+msgstr ""
+
+#: tform1.button3.caption
+msgid "Default(Eng)"
+msgstr ""
+
+#: tform1.caption
+msgid "Win Gui"
+msgstr ""
+
+#: tform1.edit1.text
+msgid "Edit1"
+msgstr ""
+
+#: tform2.btncancel.caption
+msgid "Cancel"
+msgstr ""
+
+#: tform2.btnok.caption
+msgid "ok"
+msgstr ""
+
+#: tform2.caption
+msgid "Form2"
+msgstr ""
+
+#: unit1.closemessage
+msgid "Closing your app... bye bye!"
+msgstr ""
+
+#: unit1.hellomessage
+msgid "Hello World!"
+msgstr ""
+
